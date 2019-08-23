@@ -6,15 +6,17 @@
   --black: #1e1c1c;
   --off-white: #f1f3f6;
   --grey: #73808d;
-  --extra-small: .1rem;
-  --small: 1.2rem;
-  --medium: 1.6rem;
-  --large: 3.2rem;
-  --extra-large: 4.8rem;
+  --2x-small: .8rem;
+  --x-small: 1rem;
+  --small: 1.25rem;
+  --medium: 1.56rem;
+  --large: 1.95rem;
+  --x-large: 2.44rem;
+  --2x-large: 3rem;
 }
 
 html {
-  font-size: 62.5%;
+  /*font-size: 62.5%;*/
 }
 
 body {
@@ -27,19 +29,19 @@ a {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 70rem;
   margin: 0 auto;
   padding: var(--medium);
 }
 
 h1 {
   color: var(--black);
-  font-size: var(--large);
+  font-size: var(--2x-large);
 }
 
 h2 {
   color: var(--blue);
-  font-size: var(--extra-large);
+  font-size: var(--x-large);
 }
 
 h3 {
@@ -47,34 +49,35 @@ h3 {
   font-size: var(--large);
   text-decoration: underline;
   text-decoration-color: var(--yellow);
+}
 
+h4 {
+  color: var(--red);
+  font-size: var(--medium);
 }
 
 p {
   color: var(--black);
-  font-size: var(--medium);
+  font-size: var(--small);
 }
 
 span {
   color: var(--grey);
-  font-size: var(--medium);
+  font-size: var(--small);
 }
 
 ul li {
-  font-size: var(--medium);
-  padding: var(--extra-small);
+  font-size: var(--small);
 }
 
 pre {
-  margin: 0;
-  line-height: 0;
+  font-size: var(--small) !important;
 }
 
-code {
-  font-size: var(--small);
-  line-height: var(--medium);
+.shortcut {
+  padding: var(--2x-small) !important;
 }
 
-.hljs {
-  padding: var(--medium);
+.note {
+  font-size: var(--2x-small);
 }
