@@ -1,0 +1,80 @@
+:root {
+  --white: #f2f4f3;
+  --yellow: #ffe659;
+  --red: #f55443;
+  --blue: #0e4890;
+  --black: #1e1c1c;
+  --off-white: #f1f3f6;
+  --grey: #73808d;
+  --extra-small: .1rem;
+  --small: 1.2rem;
+  --medium: 1.6rem;
+  --large: 3.2rem;
+  --extra-large: 4.8rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: var(--off-white);
+}
+
+a {
+  color: var(--red);
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: var(--medium);
+}
+
+h1 {
+  color: var(--black);
+  font-size: var(--large);
+}
+
+h2 {
+  color: var(--blue);
+  font-size: var(--extra-large);
+}
+
+h3 {
+  color: var(--blue);
+  font-size: var(--large);
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+
+}
+
+p {
+  color: var(--black);
+  font-size: var(--medium);
+}
+
+span {
+  color: var(--grey);
+  font-size: var(--medium);
+}
+
+ul li {
+  font-size: var(--medium);
+  padding: var(--extra-small);
+}
+
+pre {
+  margin: 0;
+  /*line-height: 0;*/
+}
+
+code {
+  font-size: var(--small);
+  /*line-height: var(--medium);*/
+}
+
+.hljs {
+  /*padding: var(--medium);*/
+}
